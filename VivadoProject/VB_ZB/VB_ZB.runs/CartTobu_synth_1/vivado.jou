@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Mar  4 09:33:17 2022
+# Process ID: 6004
+# Current directory: C:/Users/Tom/VB_ZB/VB_ZB.runs/CartTobu_synth_1
+# Command line: vivado.exe -log CartTobu.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source CartTobu.tcl
+# Log file: C:/Users/Tom/VB_ZB/VB_ZB.runs/CartTobu_synth_1/CartTobu.vds
+# Journal file: C:/Users/Tom/VB_ZB/VB_ZB.runs/CartTobu_synth_1\vivado.jou
+#-----------------------------------------------------------
+source CartTobu.tcl -notrace

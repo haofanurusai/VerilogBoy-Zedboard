@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1646368609">
+  <File Type="PA-TCL" Name="top.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="top_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="top_reports.tcl"/>
+  <File Type="RDS-RDS" Name="top.vds"/>
+  <File Type="RDS-UTIL" Name="top_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="top_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="top.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="top_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="top_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/alu.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/verilogboy/VerilogBoy-0.1/rtl/alu.v"/>
+        <Attr Name="ImportTime" Val="1555259983"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/anti_vibration.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/boy.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/verilogboy/VerilogBoy-0.1/rtl/boy.v"/>
+        <Attr Name="ImportTime" Val="1555259983"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/brom.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/verilogboy/VerilogBoy-0.1/rtl/brom.v"/>
+        <Attr Name="ImportTime" Val="1555259983"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/clk_div.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/verilogboy/VerilogBoy-0.1/rtl/clk_div.v"/>
+        <Attr Name="ImportTime" Val="1555259983"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/control.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/verilogboy/VerilogBoy-0.1/rtl/control.v"/>
+        <Attr Name="ImportTime" Val="1555259983"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/cpu.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/verilogboy/VerilogBoy-0.1/rtl/cpu.v"/>
+        <Attr Name="ImportTime" Val="1555259983"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/dma.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/verilogboy/VerilogBoy-0.1/rtl/dma.v"/>
+        <Attr Name="ImportTime" Val="1555259983"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/mbc5.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/verilogboy/VerilogBoy-0.1/rtl/mbc5.v"/>
+        <Attr Name="ImportTime" Val="1555259983"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/ppu.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/verilogboy/VerilogBoy-0.1/rtl/ppu.v"/>
+        <Attr Name="ImportTime" Val="1555259983"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/regfile.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/verilogboy/VerilogBoy-0.1/rtl/regfile.v"/>
+        <Attr Name="ImportTime" Val="1555259983"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/serial.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/verilogboy/VerilogBoy-0.1/rtl/serial.v"/>
+        <Attr Name="ImportTime" Val="1555259983"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/singleport_ram.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/verilogboy/VerilogBoy-0.1/rtl/singleport_ram.v"/>
+        <Attr Name="ImportTime" Val="1555259983"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/singlereg.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/verilogboy/VerilogBoy-0.1/rtl/singlereg.v"/>
+        <Attr Name="ImportTime" Val="1555259983"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/sound.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/verilogboy/VerilogBoy-0.1/rtl/sound.v"/>
+        <Attr Name="ImportTime" Val="1555259983"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/sound_channel_mix.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/verilogboy/VerilogBoy-0.1/rtl/sound_channel_mix.v"/>
+        <Attr Name="ImportTime" Val="1555259983"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/sound_length_ctr.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/verilogboy/VerilogBoy-0.1/rtl/sound_length_ctr.v"/>
+        <Attr Name="ImportTime" Val="1555259983"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/sound_noise.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/verilogboy/VerilogBoy-0.1/rtl/sound_noise.v"/>
+        <Attr Name="ImportTime" Val="1555259983"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/sound_square.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/verilogboy/VerilogBoy-0.1/rtl/sound_square.v"/>
+        <Attr Name="ImportTime" Val="1555259983"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/sound_vol_env.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/verilogboy/VerilogBoy-0.1/rtl/sound_vol_env.v"/>
+        <Attr Name="ImportTime" Val="1555259983"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/sound_wave.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/verilogboy/VerilogBoy-0.1/rtl/sound_wave.v"/>
+        <Attr Name="ImportTime" Val="1555259983"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/timer.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/verilogboy/VerilogBoy-0.1/rtl/timer.v"/>
+        <Attr Name="ImportTime" Val="1555259983"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/vga_mixer.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/verilogboy/rtl/vga_mixer.v"/>
+        <Attr Name="ImportTime" Val="1628236870"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/vga_timing.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/verilogboy/rtl/vga_timing.v"/>
+        <Attr Name="ImportTime" Val="1628236870"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/ADAU1761_interface.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/verilogboy/rtl/ADAU1761_interface.vhd"/>
+        <Attr Name="ImportTime" Val="1428916693"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/adau1761_configuraiton_data.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/verilogboy/rtl/adau1761_configuraiton_data.vhd"/>
+        <Attr Name="ImportTime" Val="1428916693"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/adau1761_izedboard.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/verilogboy/rtl/adau1761_izedboard.vhd"/>
+        <Attr Name="ImportTime" Val="1428916693"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/audio_top.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/verilogboy/rtl/audio_top.vhd"/>
+        <Attr Name="ImportTime" Val="1428916693"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/clocking.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/verilogboy/rtl/clocking.vhd"/>
+        <Attr Name="ImportTime" Val="1646301173"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/i2c.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/verilogboy/rtl/i2c.vhd"/>
+        <Attr Name="ImportTime" Val="1428916693"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/i2s_data_interface.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/verilogboy/rtl/i2s_data_interface.vhd"/>
+        <Attr Name="ImportTime" Val="1428916693"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/i3c2.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/verilogboy/rtl/i3c2.vhd"/>
+        <Attr Name="ImportTime" Val="1428916693"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/top.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/common.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/verilogboy/VerilogBoy-0.1/rtl/common.v"/>
+        <Attr Name="ImportTime" Val="1555259983"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/audio_testbench.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/verilogboy/rtl/audio_testbench.vhd"/>
+        <Attr Name="ImportTime" Val="1428916693"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Desktop/tobudx.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/vga_font.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Desktop/verilogboy/rtl/vga_font.v"/>
+        <Attr Name="ImportTime" Val="1628236870"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="top"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/top.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="pll"/>
+  <BlockFileSet Type="BlockSrcs" Name="vga_mem"/>
+  <BlockFileSet Type="BlockSrcs" Name="CartTobu"/>
+</GenRun>
