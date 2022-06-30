@@ -12,10 +12,6 @@ Using onboard buttons and DIP switches as controller.
 
 ![pic](https://github.com/haofanurusai/VerilogBoy-Zedboard/blob/main/Pic/tobudx.jpg?raw=true)
 
-# Demo video
-
-[Link](https://www.bilibili.com/video/BV1Cq4y1473T/)
-
 # References
 
 VerilogBoy : https://github.com/zephray/VerilogBoy
